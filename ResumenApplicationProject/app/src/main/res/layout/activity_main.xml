@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.example.resume.app"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="center_horizontal" android:id="@+id/header_layout"
+		android:orientation="vertical" android:layout_height="wrap_content">
+		<com.example.resume.app.TitleFlowIndicator
+			android:id="@+id/viewflowindic" 
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			app:footerLineHeight="2dp"
+			app:customTypeface="fonts/VERDANA.TTF"
+			app:footerTriangleHeight="10dp" 
+			app:textColor="#FFFFFFFF" 
+			app:selectedColor="#FFFFC445" 
+			app:footerColor="#FFFFC445" 
+			app:titlePadding="10dp" 
+			app:textSize="10dp" 
+			app:selectedSize="11dp" 			
+			android:layout_marginTop="10dip"			 
+			app:clipPadding="5dp"></com.example.resume.app.TitleFlowIndicator>
+
+	</LinearLayout>
+	<com.example.resume.app.ViewFlow
+		android:duplicateParentState="true" 
+		android:id="@+id/viewflow"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"></com.example.resume.app.ViewFlow>
+</LinearLayout> 

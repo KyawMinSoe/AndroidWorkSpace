@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:id="@+id/sv_2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+<LinearLayout
+    android:id="@+id/technologies"
+	xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent" android:orientation="vertical">
+	
+    <TextView
+        android:id="@+id/lang_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"              
+        android:text="Profecient Languages"
+        android:layout_marginTop="10dp"
+        android:textColor="#4A442A"
+        android:textSize="20dp"
+        android:textStyle="bold" 
+        android:background="#DAEEF3"/>
+    
+    <LinearLayout
+    	android:id="@+id/proficient_languages1"	
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layoutAnimation="@anim/layout_animation_table">
+        
+        <ImageView
+            android:id="@+id/img_android_lang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"            
+            android:src="@drawable/android_lang" />
+        <ImageView
+            android:id="@+id/img_java_lang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/java_lang" />
+        <ImageView
+            android:id="@+id/img_php_lang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/php_lang" />
+   </LinearLayout>
+   
+   <LinearLayout
+    	android:id="@+id/proficient_languages2"	
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layoutAnimation="@anim/layout_animation_table">
+        
+        <ImageView
+            android:id="@+id/img_cdoubleplus_lang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/cdoubleplus_lang" />
+        <ImageView
+            android:id="@+id/img_aspnet_lang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/aspnet_lang" />
+        <ImageView
+            android:id="@+id/img_vbnet_lang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/vbnet_lang" /> 
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/db_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"              
+        android:text="DataBase"
+        android:layout_marginTop="10dp"
+        android:textColor="#4A442A"
+        android:textSize="20dp"
+        android:textStyle="bold" 
+        android:background="#DAEEF3"/>
+    
+    <LinearLayout
+    	android:id="@+id/database1"	
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layoutAnimation="@anim/layout_cycle">
+        
+        <ImageView
+            android:id="@+id/img_oracle_db"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:src="@drawable/oracle_db" />
+        <ImageView
+            android:id="@+id/img_mssql_db"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:src="@drawable/mssql_db" />
+        <ImageView
+            android:id="@+id/img_mysql_db"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:src="@drawable/mysql_db" /> 
+            
+        <ImageView
+            android:id="@+id/img_sqlite_db"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:src="@drawable/sqlite_db" /> 
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/ot_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"              
+        android:text="Other IT Skills"
+        android:layout_marginTop="10dp"
+        android:textColor="#4A442A"
+        android:textSize="20dp"
+        android:textStyle="bold" 
+        android:background="#DAEEF3"/>
+    
+     <LinearLayout
+    	android:id="@+id/other"	
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layoutAnimation="@anim/layout_animation_table">
+        
+          <ImageView
+            android:id="@+id/img_other"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:padding="10dp"
+            android:src="@drawable/otheritskill" />
+        
+     </LinearLayout>
+     
+     <TextView
+        android:id="@+id/os_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"              
+        android:text="Operating Systems"
+        android:layout_marginTop="10dp"
+        android:textColor="#4A442A"
+        android:textSize="20dp"
+        android:textStyle="bold" 
+        android:background="#DAEEF3"/>
+     
+      <LinearLayout
+    	android:id="@+id/operating_system"	
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layoutAnimation="@anim/layout_cycle">
+        
+        <ImageView
+            android:id="@+id/img_ubuntu_os"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"            
+            android:src="@drawable/ubuntu_os" />
+        <ImageView
+            android:id="@+id/img_redhat_os"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/redhat_os" />
+        <ImageView
+            android:id="@+id/img_window_os"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/window_os" />
+   </LinearLayout>
+	
+</LinearLayout>
+</ScrollView>

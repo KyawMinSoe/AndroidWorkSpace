@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- use the Android Light theme as the base for our own theme -->
+    <style name="MyMessageActivityTheme" parent="android:Theme.Dialog">
+
+        <!-- hide the Window Title -->
+        <item name="android:background">@android:color/transparent</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+        <!-- You could change the scrollbar, checkbox style, anything! -->
+    </style>
+
+</resources>
