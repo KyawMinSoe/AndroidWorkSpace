@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Resume</string>
+    <string name="my_photo">My Photo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="gmail"><u>stephan.kms@gmail.com</u></string>
+    <string name="ymail"><u>stephan.kms786@yahoo.com.sg</u></string>
+    
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer" />
+    </declare-styleable>
+	<declare-styleable name="TitleFlowIndicator">
+	    <attr name="titlePadding" format="dimension"/>
+	    <!-- Left/right padding of not active view titles. -->
+	    <attr name="clipPadding" format="dimension"/>
+	    <attr name="selectedColor" format="color"/>
+	    <attr name="selectedBold" format="boolean"/>
+	    <attr name="selectedSize" format="dimension"/>
+	    <attr name="textSize" format="dimension"/>
+	    <attr name="textColor" format="color"/>
+	    <attr name="footerLineHeight" format="dimension"/>
+	    <attr name="footerColor" format="color"/>
+		<attr name="footerTriangleHeight" format="dimension"/>
+		<attr name="customTypeface"	format="string"/>
+	</declare-styleable>
+	<declare-styleable name="ProgressWheel">
+        <attr name="text" format="string" />
+        <attr name="textColorP" format="color" />
+        <attr name="textSizeP" format="dimension" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="dimension" />
+        <attr name="delayMillis" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="barLength" format="dimension" />
+    </declare-styleable>
+</resources>

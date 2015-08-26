@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:id="@+id/sv_2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+<LinearLayout
+    android:id="@+id/education"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:layoutAnimation="@anim/layout_animation_table"  
+	android:orientation="vertical">
+	
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="0.05">
+   
+    <TextView
+        android:id="@+id/ucsy_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ucsy_logo"
+        android:text="University of Computer Studies,Yangon,Myanmar."
+        android:textColor="#026095"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+     <Button
+        android:id="@+id/ucsy_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"        
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"  
+        android:autoLink="web|web"
+        android:text="http://www.ucsy.edu.mm"                 
+        android:background ="@drawable/ucsy_logo" />
+    
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bcsc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="B.C.Sc. (Bachelor of Computer Science)"
+        android:textColor="#C0FF00"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    
+     <RelativeLayout 
+        android:id="@+id/rl_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+        
+        <TextView
+            android:id="@+id/txt_qua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp" 
+            android:text="Qualificatioin" 
+            android:textSize="14dp" 
+            android:textColor="#00FF00"/>
+        
+        <TextView
+            android:id="@+id/textView11"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text=":" 
+            android:textSize="11dp" 
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/txt_qua_fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView11"
+            android:padding="10dp"
+            android:text="Qualified to proceed to B.C.Sc, (Honours)" 
+            android:textSize="14dp" 
+            android:textColor="#FFFFFF"/>     
+        
+    </RelativeLayout>
+    
+	<RelativeLayout 
+        android:id="@+id/rl_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+        
+        <TextView
+            android:id="@+id/txt_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp" 
+            android:text="Distinction" 
+            android:textSize="14dp" 
+            android:textColor="#00FF00"/>
+        
+        <TextView
+            android:id="@+id/textView12"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text=":" 
+            android:textSize="11dp" 
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/txt_dis_fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView12"
+            android:padding="10dp"
+            android:text="CST-302, CST-305" 
+            android:textSize="14dp" 
+            android:textColor="#FFFFFF"/>     
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/bcsc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="B.C.Sc. (Hons.) (Bachelor of Computer Science[Honours])"
+        android:textColor="#C0FF00"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    
+    <RelativeLayout 
+        android:id="@+id/rl_4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+        
+        <TextView
+            android:id="@+id/txt_qua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp" 
+            android:text="Qualificatioin" 
+            android:textSize="14dp" 
+            android:textColor="#00FF00"/>
+        
+        <TextView
+            android:id="@+id/textView13"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text=":" 
+            android:textSize="11dp" 
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/txt_dis_fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView13"
+            android:padding="10dp"
+            android:text="Qualified to proceed to M.C.Sc." 
+            android:textSize="14dp" 
+            android:textColor="#FFFFFF"/>     
+        
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"/>
+    
+    <RelativeLayout
+        android:id="@+id/rl_5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="0.05">   
+
+    <TextView
+        android:id="@+id/imceits_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/cdac_logo"
+        android:text="India Myanmar Center For Enhancement Of IT Skills"
+        android:textColor="#026095"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    
+     <Button
+        android:id="@+id/cdac_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"          
+        android:autoLink="web|web"
+        android:text="http://www.cdacindia.com/"                 
+        android:background="@drawable/cdac_logo" />
+    
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/java_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Diploma in Java Programming"
+        android:textColor="#C0FF00"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    
+     <RelativeLayout 
+        android:id="@+id/rl_6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+        
+        <TextView
+            android:id="@+id/txt_qua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp" 
+            android:text="Qualificatioin" 
+            android:textSize="14dp" 
+            android:textColor="#00FF00"/>
+        
+        <TextView
+            android:id="@+id/textView14"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text=":" 
+            android:textSize="11dp" 
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/txt_dis_fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView14"
+            android:padding="10dp"
+            android:text="Grade A, 3rd Best Project Award" 
+            android:textSize="14dp" 
+            android:textColor="#FFFFFF"/>     
+        
+    </RelativeLayout>
+    
+</LinearLayout>
+</ScrollView>
